@@ -1,0 +1,6 @@
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      is_main_content: false
