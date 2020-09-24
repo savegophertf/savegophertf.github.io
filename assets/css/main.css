@@ -18,7 +18,8 @@
 /* Header Message (#falsestart) */
 .header-message {
     z-index: 1;
-    background-color: #de5972;
+    background-color: #7a0019;
+    color: #ffcc33;
     display: flex;
     justify-content: space-between;
     position: fixed; /* Set the header to fixed position */
