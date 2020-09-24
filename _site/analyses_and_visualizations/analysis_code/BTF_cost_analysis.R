@@ -154,11 +154,11 @@ cost_perAthlete.Men %>%
         #plot.background = element_rect(fill = "white"),
         legend.position = "none")
 
-## Also export as png
-ggsave("figures/financial/costs_per_athlete.webpage.png",
-       height = 6,
-       width = 9,
-       dpi = 640)
+# ## Also export as png
+# ggsave("figures/financial/costs_per_athlete.webpage.png",
+#        height = 6,
+#        width = 9,
+#        dpi = 640)
 
 
 
@@ -236,6 +236,83 @@ ggsave("figures/financial/costs_per_athlete.IG.png",
        height = 6,
        width = 9,
        dpi = 640)
+
+
+
+# * * 2.1.3 PPT report graph -------------------------------------------------
+
+
+## Plot Cost per athlete for each varsity team (Men)
+cost_perAthlete.Men %>% 
+  # Bind the row created above
+  bind_rows(cost_perUnique) %>% 
+  # Rename the original Track/XC label as Track/XC per roster spot
+  mutate(`Varsity Sport` = fct_recode(`Varsity Sport`,
+                                      "Track/XC (per roster spot)" = "Track/XC")) %>% 
+  # Reorder Sport by cost per athlete (reorders the labels on the axis)
+  mutate(`Varsity Sport` = fct_reorder(`Varsity Sport`, `Cost per Athlete`)) %>% 
+  # Assemble plot
+  # Assign fill to Track/XC
+  ggplot(aes(x = `Varsity Sport`, y = `Cost per Athlete`, fill = is.track)) +
+  geom_col(color = "black",
+           size = 0.35,
+           width = 0.75) +
+  geom_text(aes(label = dollar(`Cost per Athlete`, 
+                               # Divide by 1,000 to report in thousands
+                               scale = 1/1000,
+                               # Round to the tenths place
+                               accuracy = .1,
+                               # Add suffix
+                               suffix = "K")),
+            color = "black",
+            size = 4.5,
+            nudge_y = 2000,
+            hjust = 0) +
+  annotate(y = 55000,
+           x = "Track/XC (per unique athlete)",
+           geom = "text",
+           color = "black",
+           hjust = 0,
+           vjust = 1,
+           label = "Data taken from the Brown University\n2019 Equity in Athletics report") +
+  #scale_fill_manual(values = c("saddlebrown", "red")) +
+  scale_fill_manual(values = c("gray75", "red")) +
+  scale_y_continuous(limits = c(0, 100000),
+                     labels = dollar) +
+  coord_flip() +
+  ggtitle("Brown's spending per athlete on Men's varsity teams",
+          subtitle = "Based on Brown University's 2018-2019 academic year") +
+  labs(y = "Spending per athlete") +
+  theme_minimal() + 
+  theme(axis.text.x = element_text(size = 14,
+                                   margin = margin(t = 0.5, unit = "cm"),
+                                   color = "black"),
+        axis.text.y = element_text(size = 14,
+                                   color = "black"),
+        axis.title.y = element_blank(),
+        axis.title.x = element_text(size = 14,
+                                    margin = margin(t = 0.5, unit = "cm"),
+                                    color = "black"),
+        plot.title = element_text(size = 16,
+                                  face = "bold"),
+        plot.subtitle = element_text(size = 13,
+                                     face = "italic"),
+        plot.margin = margin(0.5, 0.5, 0.5, r = 0.75, unit = "cm"),
+        panel.grid.minor = element_blank(),
+        panel.grid.major.y = element_blank(),
+        panel.grid.major.x = element_line(color = "gray90"),
+        text = element_text(color = "black",
+                            #face = "bold",
+                            family = "Helvetica"),
+        #plot.background = element_rect(fill = "white"),
+        legend.position = "none")
+
+# ## Also export as png
+# ggsave("figures/financial/costs_per_athlete.webpage.png",
+#        height = 6,
+#        width = 9,
+#        dpi = 640)
+
 
 
 # * 2.2 Total operating costs per team ------------------------------------

@@ -18,7 +18,8 @@
 /* Header Message (#falsestart) */
 .header-message {
     z-index: 1;
-    background-color: #de5972;
+    background-color: #7a0019;
+    color: #ffcc33;
     display: flex;
     justify-content: space-between;
     position: fixed; /* Set the header to fixed position */
@@ -39,8 +40,12 @@
     }
 
         /* falsestart links */
-        .header-message .header-message-item a {
+        .header-message .header-message-item a:link {
+            color: #ffcc33;
+        }
 
+        .header-message .header-message-item a:hover {
+            color: #d5d6d2;
         }
 
 /* The navigation bar */
