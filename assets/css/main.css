@@ -40,8 +40,12 @@
     }
 
         /* falsestart links */
-        .header-message .header-message-item a {
+        .header-message .header-message-item a:link {
+            color: #ffcc33;
+        }
 
+        .header-message .header-message-item a:hover {
+            color: #d5d6d2;
         }
 
 /* The navigation bar */
@@ -56,7 +60,7 @@
     .navbar a {
       float: left;
       display: block;
-      color: #ffcc33;
+      color: #f2f2f2;
       text-align: center;
       padding: 3vh 3vw;
       text-decoration: none;
