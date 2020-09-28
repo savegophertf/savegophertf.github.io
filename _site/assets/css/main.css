@@ -63,11 +63,8 @@
 }
 
 h1.landing-headline {
-	text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
-}
-
-p.landing-text {
-	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: #ffcc33;
+    font-weight: bolder;
 }
 
 .landing-vid video {
@@ -4399,7 +4396,6 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			border-radius: 0;
-			opacity: 0.5;
 		}
 
 			.banner.style5 .image img {
