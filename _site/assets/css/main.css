@@ -2202,9 +2202,9 @@ input, select, textarea {
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
-		font-size: 0.75rem;
+		font-size: 1rem;
 		max-width: 20rem;
-		height: 3.75em;
+		height: 4em;
 		line-height: 3.75em;
 		padding: 0 2.5em;
 		text-overflow: ellipsis;
@@ -7770,7 +7770,6 @@ input, select, textarea {
 
 		.items.style1.medium > * {
 			padding: 2.1875rem 2.1875rem 0.1875rem 2.1875rem ;
-			width: 33.33333%;
 		}
 
 			.items.style1.medium > *:nth-child(-n + 3) {
