@@ -53,6 +53,7 @@ off_white: #E9E5E4;
 	max-width: 100%;
 	overflow: hidden;
 	position: relative;
+    opacity: .8;
 }
 
 .landing-darken {
