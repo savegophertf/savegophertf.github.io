@@ -3104,11 +3104,27 @@ input, select, textarea {
             font-weight: bold;
 		}
 
+            table tbody tr:nth-child(2n + 1) a {
+                color: #F8C33E;
+            }
+
+            table tbody tr:nth-child(2n + 1) a:hover {
+                color: white;
+            }
+
         table tbody tr:nth-child(2n) {
             background-color: #F8C33E !important;
             color: #6F2C3E;
             font-weight: bold;
         }
+
+            table tbody tr:nth-child(2n) a {
+                color: #6F2C3E;
+            }
+
+            table tbody tr:nth-child(2n) a:hover {
+                color: black;
+            }
 
 		table tbody tr.alt {
 			background-color: rgba(0, 0, 0, 0.05) !important;
