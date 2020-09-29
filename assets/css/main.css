@@ -67,6 +67,7 @@ off_white: #E9E5E4;
 h1.landing-headline {
     color: #F8C33E;
     font-weight: bolder;
+    font-size: 5rem;
 }
 
 .landing-vid video {
