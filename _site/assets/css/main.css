@@ -2769,15 +2769,27 @@ input, select, textarea {
 
 /* List */
 
-	ol {
+	ol.d {
 		list-style: decimal;
 		margin: 0 0 2rem 0;
 		padding-left: 1.25rem;
 	}
 
-		ol li {
+		ol.d li {
 			padding-left: 0.25rem;
+            font-weight: bold;
 		}
+
+    ol.a {
+        list-style: upper-alpha;
+		margin: 0 0 2rem 0;
+		padding-left: 1.25rem;
+    }
+
+        ol.a li {
+            padding-left: 0.25rem;
+            font-weight: normal;
+        }
 
 	ul {
 		list-style: disc;
