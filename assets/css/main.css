@@ -2780,16 +2780,6 @@ input, select, textarea {
 			padding-left: 0.25rem;
 		}
 
-    ol.a {
-        list-style: upper-alpha;
-		margin: 0 0 2rem 0;
-		padding-left: 1.25rem;
-    }
-
-        ol.a li {
-            padding-left: 0.25rem;
-        }
-
 	ul {
 		list-style: disc;
 		margin: 0 0 2rem 0;
