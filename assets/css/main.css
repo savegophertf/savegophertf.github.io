@@ -21,7 +21,7 @@ off_white: #E9E5E4;
   overflow: hidden;
   background-color: #6F2C3E;
   color: #F8C33E;
-  /* height: 10vh; */
+  height: 10vh;
 }
 
     /* Links inside the navbar */
@@ -82,7 +82,7 @@ h1.landing-headline {
 }
 
 .white-bg {
-	background-color: white;
+	background-color: #E9E5E4;
 	position: relative;
 	opacity: 1;
 	height: 100%;
@@ -2197,7 +2197,7 @@ input, select, textarea {
 		border: 0;
 		cursor: pointer;
         background-color: #6F2C3E;
-        color: white;
+        color: #E9E5E4;
 		display: inline-block;
 		font-weight: 400;
 		letter-spacing: 0.125em;
@@ -4506,21 +4506,21 @@ input, select, textarea {
 	}
 
 	.banner.style4.invert .image {
-		border-color: white;
-		background-color: white;
+		border-color: #E9E5E4;
+		background-color: #E9E5E4;
 		border-width: 1px;
 	}
 
 		.banner.style4.invert .image:before {
 			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Erect %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Crect rx='4' ry='4' x='11' y='12' width='42' height='8' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
-			border-color: white;
+			border-color: #E9E5E4;
 			width: calc(100% + 2px);
 			margin-left: -1px;
 		}
 
 		.banner.style4.invert .image:after {
 			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Ecircle %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Ccircle cx='32' cy='16' r='14' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
-			border-color: white;
+			border-color: #E9E5E4;
 			width: calc(100% + 2px);
 			margin-left: -1px;
 		}
@@ -5929,21 +5929,21 @@ input, select, textarea {
 	}
 
 	.spotlight.style3.invert .image {
-		border-color: white;
-		background-color: white;
+		border-color: #E9E5E4;
+		background-color: #E9E5E4;
 		border-width: 1px;
 	}
 
 		.spotlight.style3.invert .image:before {
 			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Erect %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Crect rx='4' ry='4' x='11' y='12' width='42' height='8' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
-			border-color: white;
+			border-color: #E9E5E4;
 			width: calc(100% + 2px);
 			margin-left: -1px;
 		}
 
 		.spotlight.style3.invert .image:after {
 			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Ecircle %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Ccircle cx='32' cy='16' r='14' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
-			border-color: white;
+			border-color: #E9E5E4;
 			width: calc(100% + 2px);
 			margin-left: -1px;
 		}
@@ -6493,16 +6493,16 @@ input, select, textarea {
 		}
 
 		.gallery.style1 blockquote {
-			border-left-color: white;
+			border-left-color: #E9E5E4;
 		}
 
 		.gallery.style1 code {
 			background: rgba(255, 255, 255, 0.125);
-			border-color: white;
+			border-color: #E9E5E4;
 		}
 
 		.gallery.style1 hr {
-			border-bottom-color: white;
+			border-bottom-color: #E9E5E4;
 		}
 
 		.gallery.style1 input[type="submit"],
@@ -6817,16 +6817,16 @@ input, select, textarea {
 		}
 
 		.gallery.style2 blockquote {
-			border-left-color: white;
+			border-left-color: #E9E5E4;
 		}
 
 		.gallery.style2 code {
 			background: rgba(255, 255, 255, 0.125);
-			border-color: white;
+			border-color: #E9E5E4;
 		}
 
 		.gallery.style2 hr {
-			border-bottom-color: white;
+			border-bottom-color: #E9E5E4;
 		}
 
 		.gallery.style2 input[type="submit"],
@@ -8380,20 +8380,20 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert blockquote {
-				border-left-color: white;
+				border-left-color: #E9E5E4;
 			}
 
 			#wrapper > .invert code {
 				background: rgba(255, 255, 255, 0.125);
-				border-color: white;
+				border-color: #E9E5E4;
 			}
 
 			#wrapper > .invert hr {
-				border-bottom-color: white;
+				border-bottom-color: #E9E5E4;
 			}
 
 			#wrapper > .invert .box {
-				border-color: white;
+				border-color: #E9E5E4;
 			}
 
 			#wrapper > .invert input[type="submit"],
@@ -8463,7 +8463,7 @@ input, select, textarea {
 			#wrapper > .invert input[type="url"],
 			#wrapper > .invert select,
 			#wrapper > .invert textarea {
-				border-color: white;
+				border-color: #E9E5E4;
 			}
 
 				#wrapper > .invert input[type="text"]:focus,
@@ -8494,7 +8494,7 @@ input, select, textarea {
 
 				#wrapper > .invert input[type="checkbox"] + label:before,
 				#wrapper > .invert input[type="radio"] + label:before {
-					border-color: white;
+					border-color: #E9E5E4;
 				}
 
 			#wrapper > .invert input[type="checkbox"]:checked + label:before,
@@ -8542,7 +8542,7 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert ul.alt li {
-				border-top-color: white;
+				border-top-color: #E9E5E4;
 			}
 
 			#wrapper > .invert header p {
@@ -8550,7 +8550,7 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert table tbody tr {
-				border-color: white;
+				border-color: #E9E5E4;
 			}
 
 				#wrapper > .invert table tbody tr:nth-child(2n + 1) {
@@ -8566,15 +8566,15 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert table thead {
-				border-bottom-color: white;
+				border-bottom-color: #E9E5E4;
 			}
 
 			#wrapper > .invert table tfoot {
-				border-top-color: white;
+				border-top-color: #E9E5E4;
 			}
 
 			#wrapper > .invert table.alt tbody tr td {
-				border-color: white;
+				border-color: #E9E5E4;
 			}
 
 			#wrapper > .invert table.uniform tbody tr:nth-child(2n + 1) {
@@ -8586,21 +8586,21 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert .banner.style4 .image {
-				border-color: white;
-				background-color: white;
+				border-color: #E9E5E4;
+				background-color: #E9E5E4;
 				border-width: 1px;
 			}
 
 				#wrapper > .invert .banner.style4 .image:before {
 					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Erect %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Crect rx='4' ry='4' x='11' y='12' width='42' height='8' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
-					border-color: white;
+					border-color: #E9E5E4;
 					width: calc(100% + 2px);
 					margin-left: -1px;
 				}
 
 				#wrapper > .invert .banner.style4 .image:after {
 					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Ecircle %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Ccircle cx='32' cy='16' r='14' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
-					border-color: white;
+					border-color: #E9E5E4;
 					width: calc(100% + 2px);
 					margin-left: -1px;
 				}
@@ -8614,21 +8614,21 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert .spotlight.style3 .image {
-				border-color: white;
-				background-color: white;
+				border-color: #E9E5E4;
+				background-color: #E9E5E4;
 				border-width: 1px;
 			}
 
 				#wrapper > .invert .spotlight.style3 .image:before {
 					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Erect %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Crect rx='4' ry='4' x='11' y='12' width='42' height='8' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
-					border-color: white;
+					border-color: #E9E5E4;
 					width: calc(100% + 2px);
 					margin-left: -1px;
 				}
 
 				#wrapper > .invert .spotlight.style3 .image:after {
 					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Ecircle %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Ccircle cx='32' cy='16' r='14' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
-					border-color: white;
+					border-color: #E9E5E4;
 					width: calc(100% + 2px);
 					margin-left: -1px;
 				}
@@ -8642,19 +8642,19 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert .items.style1 > * {
-				border-color: white;
+				border-color: #E9E5E4;
 			}
 
 			#wrapper > .invert .items.style2 {
-				border-color: white;
+				border-color: #E9E5E4;
 			}
 
 				#wrapper > .invert .items.style2 > * {
-					border-color: white;
+					border-color: #E9E5E4;
 				}
 
 			#wrapper > .invert .index > * {
-				border-top-color: white;
+				border-top-color: #E9E5E4;
 			}
 
 		#wrapper > .color1 {
