@@ -14,6 +14,9 @@ off_white: #E9E5E4;
     position: fixed; /* Set the navbar to fixed position */
     width: 100%; /* Full width */
     z-index: 100; /* stay on top layer */
+    display: flex;
+    flex-direction: row;
+    background-color: #6F2C3E;
 }
 
 /* The navigation bar */
@@ -38,6 +41,24 @@ off_white: #E9E5E4;
     .navbar a:hover {
       background: #F8C33E;
       color: #6F2C3E;
+    }
+
+.social-media {
+    overflow: hidden;
+    background-color: #6F2C3E;
+    color: #F8C33E;
+    height: 10vh;
+}
+
+    .social-media a {
+        float: left;
+        color: #F8C33E;
+        display: block;
+        padding: 1.5vh 1vw;
+    }
+
+    .social-media a:hover {
+        background: black;
     }
 
 /* Main content */
