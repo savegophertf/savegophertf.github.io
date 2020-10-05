@@ -2197,6 +2197,154 @@ input, select, textarea {
 		border-color: rgba(0, 0, 0, 0.2);
 	}
 
+/* Diana's fucking gold Button */
+
+    input[type="submit"],
+    input[type="reset"],
+    input[type="button"],
+    button,
+    .gold-button {
+    	-moz-appearance: none;
+    	-webkit-appearance: none;
+    	-ms-appearance: none;
+    	appearance: none;
+    	-moz-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    	-webkit-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    	-ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    	transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    	border: 0;
+    	cursor: pointer;
+        background-color: #FFCC33;
+        color: black;
+    	display: inline-block;
+    	font-weight: 400;
+    	letter-spacing: 0.125em;
+    	text-align: center;
+    	text-decoration: none;
+    	text-transform: uppercase;
+    	white-space: nowrap;
+    	font-size: 0.75rem;
+    	max-width: 20rem;
+    	height: 3.75em;
+    	line-height: 3.75em;
+    	padding: 0 2.5em;
+    	text-overflow: ellipsis;
+    	overflow: hidden;
+    }
+
+    	input[type="submit"].icon:before,
+    	input[type="reset"].icon:before,
+    	input[type="button"].icon:before,
+    	button.icon:before,
+    	.gold-button.icon:before {
+    		margin-right: 0.5rem;
+    	}
+
+    	input[type="submit"].fit,
+    	input[type="reset"].fit,
+    	input[type="button"].fit,
+    	button.fit,
+    	.gold-button.fit {
+    		width: 100%;
+    	}
+
+    	input[type="submit"].small,
+    	input[type="reset"].small,
+    	input[type="button"].small,
+    	button.small,
+    	.gold-button.small {
+    		font-size: 0.6rem;
+    		height: 3.325em;
+    		line-height: 3.325em;
+    		border-radius: 3.325em;
+    		padding: 0 2em;
+    	}
+
+    	input[type="submit"].large,
+    	input[type="reset"].large,
+    	input[type="button"].large,
+    	button.large,
+    	.gold-button.large {
+    		font-size: 0.8rem;
+    		height: 4em;
+    		line-height: 4em;
+    		padding: 0 3em;
+    	}
+
+    	input[type="submit"].wide,
+    	input[type="reset"].wide,
+    	input[type="button"].wide,
+    	button.wide,
+    	.gold-button.wide {
+    		min-width: 14em;
+    	}
+
+    	input[type="submit"].disabled, input[type="submit"]:disabled,
+    	input[type="reset"].disabled,
+    	input[type="reset"]:disabled,
+    	input[type="button"].disabled,
+    	input[type="button"]:disabled,
+    	button.disabled,
+    	button:disabled,
+    	.gold-button.disabled,
+    	.gold-button:disabled {
+    		pointer-events: none;
+    		opacity: 0.25;
+    	}
+
+    input[type="submit"],
+    input[type="reset"],
+    input[type="button"],
+    button,
+    .gold-button {
+    	box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+    }
+
+    	input[type="submit"]:hover,
+    	input[type="reset"]:hover,
+    	input[type="button"]:hover,
+    	button:hover,
+    	.gold-button:hover {
+    		box-shadow: inset 0 0 0 2px #6F2C3E;
+    		color: #6F2C3E !important;
+    	}
+
+    	input[type="submit"]:active,
+    	input[type="reset"]:active,
+    	input[type="button"]:active,
+    	button:active,
+    	.gold-button:active {
+    		/* background-color: rgba(71, 211, 229, 0.2); */
+    		box-shadow: inset 0 0 0 1px #6F2C3E;
+    		color: #6F2C3E !important;
+    	}
+
+    	input[type="submit"].primary,
+    	input[type="reset"].primary,
+    	input[type="button"].primary,
+    	button.primary,
+    	.gold-button.primary {
+    		background-color: #2C2829;
+    		box-shadow: none;
+    		color: #6F2C3E !important;
+    	}
+
+    		input[type="submit"].primary:hover,
+    		input[type="reset"].primary:hover,
+    		input[type="button"].primary:hover,
+    		button.primary:hover,
+    		.gold-button.primary:hover {
+    			background-color: #2C2829;
+    		}
+
+    		input[type="submit"].primary:active,
+    		input[type="reset"].primary:active,
+    		input[type="button"].primary:active,
+    		button.primary:active,
+    		.gold-button.primary:active {
+    			background-color: #1ebdd1;
+    		}
+
 /* Button */
 
 	input[type="submit"],
