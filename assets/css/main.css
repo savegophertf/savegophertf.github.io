@@ -43,6 +43,35 @@ off_white: #E9E5E4;
       color: #6F2C3E;
     }
 
+/* Header Message (#falsestart) */
+.header-message {
+    z-index: 100;
+    background-color: #F8C33E;
+    color: #6F2C3E;
+    display: flex;
+    justify-content: space-between;
+    position: fixed; /* Set the header to fixed position */
+    width: 100%;
+    height: 4vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 0.5vh;
+    opacity: 1;
+    max-height: 4vh;
+    overflow: hidden;
+    top: 10vh;
+}
+
+    .header-message a:hover {
+        color: black;
+    }
+
+    /* #falsestart items */
+    .header-message .header-message-item {
+        width: 25vw;
+        text-align: center;
+    }
+
 .social-media {
     overflow: hidden;
     background-color: #6F2C3E;
