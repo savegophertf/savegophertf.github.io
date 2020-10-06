@@ -70,7 +70,7 @@ off_white: #E9E5E4;
 
 .landing-vid {
 	width: 100vw;
-	height: 95vh;
+	height: 60vh;
 	max-width: 100%;
 	overflow: hidden;
 	position: relative;
@@ -89,6 +89,7 @@ h1.landing-headline {
     color: #F8C33E;
     font-weight: bolder;
     font-size: 5rem;
+    text-shadow: 2px 2px #6F2C3E;
 }
 
 .landing-vid video {
